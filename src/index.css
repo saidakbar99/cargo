@@ -1,3 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.hero-background {
+  background: 
+    linear-gradient(181deg, rgba(14, 16, 19, 0.38) 1.64%, rgba(28, 50, 63, 0) 18.72%),
+    linear-gradient(181deg, rgba(28, 50, 63, 0) 1.64%, rgba(14, 16, 19, 0.76) 97.59%), 
+    url(./assets/hero_background.png) lightgray;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50%;
+  height: 900px;
+  position: relative;
+  width: 100%;
+}
