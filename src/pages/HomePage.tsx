@@ -1,7 +1,9 @@
 import { AboutUs } from "../components/AboutUs"
+import { Banner } from "../components/Banner"
 import { Footer } from "../components/Footer"
 import { HeroText } from "../components/HeroText"
 import { Navbar } from "../components/Navbar"
+import { Process } from "../components/Process"
 
 export const HomePage = () => {
   return (
@@ -9,11 +11,16 @@ export const HomePage = () => {
       <div className="mx-auto w-[1140px]">
         <Navbar />
         <HeroText />
-        <div className="mt-64">
-          <AboutUs />
-        </div>
-        <Footer />
+        <AboutUs />
+        <Process />
       </div>
+      <div className="banner-background mt-[140px]">
+        <Banner />
+      </div>
+      <div className="mx-auto w-[1140px]">
+
+      </div>
+      <Footer />
     </div>
   )
 }

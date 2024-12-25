@@ -6,7 +6,7 @@ export const Navbar = () => {
   const [selectedLanguage, setselectedLanguage] = useState('Ру')
   // const [isMenuOpened, setIsMenuOpened] = useState(false)
   return (
-    <div className="flex justify-between h-[50px] items-center mb-[474px]">
+    <div className="flex justify-between h-[50px] items-center">
       <img src={Icon} alt="Icon" />
       <div>
         <Button>Авторизоваться</Button>

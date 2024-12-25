@@ -2,7 +2,12 @@
 export default {
   content: ["./src/**/*.{html,js,jsx,ts,tsx}"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        gilroy: ['Gilroy', 'sans-serif'],
+        roadRadio: ['RoadRadio', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 }
