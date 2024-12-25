@@ -24,7 +24,7 @@ export const Button: React.FC<ButtonProps> = ({
     }
   };
 
-  const baseStyles = "rounded-[80px] text-center font-semibold items-center font-gilroy w-fit";
+  const baseStyles = "rounded-[80px] text-center font-semibold items-center font-gilroy ";
   const variantStyles = getButtonStyles(variant);
 
   return (

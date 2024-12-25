@@ -1,5 +1,6 @@
 import { AboutUs } from "../components/AboutUs"
 import { Banner } from "../components/Banner"
+import { Benefits } from "../components/Benefits"
 import { Footer } from "../components/Footer"
 import { HeroText } from "../components/HeroText"
 import { Navbar } from "../components/Navbar"
@@ -18,7 +19,7 @@ export const HomePage = () => {
         <Banner />
       </div>
       <div className="mx-auto w-[1140px]">
-
+        <Benefits />
       </div>
       <Footer />
     </div>
