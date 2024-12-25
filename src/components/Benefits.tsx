@@ -1,66 +1,57 @@
+import { BenefitsItem, BenefitsItemProps } from './BenefitsItem'
 import BenefitsIcon1 from '../assets/benefits_1.svg'
 import BenefitsIcon2 from '../assets/benefits_2.svg'
 import BenefitsIcon3 from '../assets/benefits_3.svg'
 import BenefitsIcon4 from '../assets/benefits_4.svg'
 import BenefitsIcon5 from '../assets/benefits_5.svg'
 import BenefitsIcon6 from '../assets/benefits_6.svg'
-import { BenefitsIcon } from './ui/BenefitsIcon'
+
+const benefitsContent = [
+  {
+    headerText: 'Инновационный сервис-центр',
+    text: 'Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!',
+    icon: BenefitsIcon1,
+  },
+  {
+    headerText: 'Экспресс-склад',
+    text: 'После поступления вашей посылки на наши склады в США и в Китай , уже в течение 24 часов посылка будет отправлена в Узбекистан.',
+    icon: BenefitsIcon2,
+  },
+  {
+    headerText: 'Быстрая доставка на дом по всему Узбекистану',
+    text: 'Доставка по городу Ташкент - $2 Доставка по Узбекистану - $5',
+    icon: BenefitsIcon3,
+  },
+  {
+    headerText: 'Фактический вес',
+    text: 'Вы всегда оплачиваете фактический вес, что существенно экономит ваши средства на доставку.',
+    icon: BenefitsIcon4,
+  },
+  {
+    headerText: '0% налога с продаж',
+    text: 'CARGO предоставляет 0% налога с продаж. Наш склад находится на территории штата Дэлавэр, что позволяет Вам не переплачивать за налоги.',
+    icon: BenefitsIcon5,
+  },
+  {
+    headerText: 'Надежность',
+    text: 'Прочные запорные устройства, на которые можно повесить до 4 замков.',
+    icon: BenefitsIcon6,
+  },
+  {
+    headerText: 'Bозможность возврата',
+    text: 'Прочные запорные устройства, на которые можно повесить до 4 замков.',
+    icon: BenefitsIcon6,
+  },
+]
 
 export const Benefits = () => {
   return (
-    <div className="mt-[140px] text-[#222529]">
-      <h2 className="text-center font-roadRadio font-bold text-5xl">наши преимущества</h2>
-
-      <div className="font-gilroy flex ">
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon1} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon2} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon3} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon4} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon5} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon6} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
-        <div className='flex'>
-          <BenefitsIcon icon={BenefitsIcon6} />
-          <div>
-            <h4 className='text-xl font-semibold'>Инновационный сервис-центр</h4>
-            <span className='text-[#898989]'>Наши инновационные технологии в сервис-центре позволяют Вам получать посылки по баркоду всего за 10 секунд. Мы ценим Ваше время!</span>
-          </div>
-        </div>
+    <div className="mt-[140px] text-black">
+      <h2 className="text-center font-roadRadio font-bold text-5xl mb-[48px]">наши преимущества</h2>
+      <div className="flex flex-wrap gap-x-6 gap-y-[29px]">
+        {benefitsContent.map((item: BenefitsItemProps) => (
+          <BenefitsItem key={item.headerText} {...item} />
+        ))}
       </div>
     </div>
   )

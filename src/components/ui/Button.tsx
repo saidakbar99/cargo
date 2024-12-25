@@ -18,13 +18,13 @@ export const Button: React.FC<ButtonProps> = ({
       case "blurred":
         return "bg-white/25 backdrop-blur-[21px] text-white py-[14px] px-6";
       case "orange":
-        return "bg-[#FB7C0E] text-xl text-white px-[30px] py-5";
+        return "bg-orange text-xl text-white px-[30px] py-5";
       case "secondary":
-        return "border border-[#FB7C0E] text-[#FB7C0E] px-[30px] py-5";
+        return "border border-orange text-orange px-[30px] py-5";
     }
   };
 
-  const baseStyles = "rounded-[80px] text-center font-semibold items-center font-gilroy ";
+  const baseStyles = "rounded-[80px] text-center font-semibold items-center";
   const variantStyles = getButtonStyles(variant);
 
   return (
