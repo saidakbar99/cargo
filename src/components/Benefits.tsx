@@ -1,10 +1,10 @@
 import { BenefitsItem, BenefitsItemProps } from './BenefitsItem'
-import BenefitsIcon1 from '../assets/benefits_1.svg'
-import BenefitsIcon2 from '../assets/benefits_2.svg'
-import BenefitsIcon3 from '../assets/benefits_3.svg'
-import BenefitsIcon4 from '../assets/benefits_4.svg'
-import BenefitsIcon5 from '../assets/benefits_5.svg'
-import BenefitsIcon6 from '../assets/benefits_6.svg'
+import BenefitsIcon1 from '../assets/sun_icon.svg'
+import BenefitsIcon2 from '../assets/sunrise_icon.svg'
+import BenefitsIcon3 from '../assets/geo_pin_icon.svg'
+import BenefitsIcon4 from '../assets/bag_icon.svg'
+import BenefitsIcon5 from '../assets/thumb_up_icon.svg'
+import BenefitsIcon6 from '../assets/lock_icon.svg'
 
 const benefitsContent = [
   {

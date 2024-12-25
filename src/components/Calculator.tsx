@@ -22,7 +22,7 @@ export const Calculator = () => {
             <input 
               type="number" 
               value={amount} 
-              className="border border-[#E5E5E5] font-semibold rounded-lg w-full py-3 px-4 mr-6 focus:outline-none" 
+              className="border border-lightGray font-semibold rounded-lg w-full py-3 px-4 mr-6 focus:outline-none" 
               onChange={(e) => setAmount(e.target.value)}  
             />
             <Dropdown options={weightOptions} />

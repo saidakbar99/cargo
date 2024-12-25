@@ -17,6 +17,7 @@ export default {
         orange: {
           DEFAULT: '#FB7C0E',
         },
+        lightGray: '#E5E5E5',
         iconBackground: '#FFF0E8',
         grayBorder: 'rgba(34, 37, 41, 0.10)',
         storeLogoBg: 'rgba(34, 37, 41, 0.04)',

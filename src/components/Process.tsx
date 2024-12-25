@@ -1,6 +1,6 @@
-import ProcessIcon1 from '../assets/process_1.svg'
-import ProcessIcon2 from '../assets/process_2.svg'
-import ProcessIcon3 from '../assets/process_3.svg'
+import ProcessIcon1 from '../assets/checked_user_icon.svg'
+import ProcessIcon2 from '../assets/truck_icon.svg'
+import ProcessIcon3 from '../assets/box_icon.svg'
 
 export const Process = () => {
   return ( 

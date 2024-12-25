@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import PlusIcon from '../../assets/plus-icon.svg'
-import MinusIcon from '../../assets/minus-icon.svg'
+import MinusIcon from '../../assets/minus_icon.svg'
 
 interface AccordionProps {
   question: string;
