@@ -9,26 +9,27 @@ import { Footer } from "../components/Footer"
 import { HeroText } from "../components/HeroText"
 import { Navbar } from "../components/Navbar"
 import { Process } from "../components/Process"
+import { Container } from "../components/ui/Container"
 
 export const HomePage = () => {
   return (
     <div className="hero-background pt-9 font-gilroy">
-      <div className="mx-auto w-[1140px]">
+      <Container>
         <Navbar />
         <HeroText />
         <AboutUs />
         <Process />
-      </div>
+      </Container>
       <div className="banner-background mt-[140px]">
         <Banner />
       </div>
-      <div className="mx-auto w-[1140px]">
+      <Container>
         <Benefits />
         <BestStores />
         <Calculator />
         <FAQ />
         <ContactUs />
-      </div>
+      </Container>
       <Footer />
     </div>
   )
