@@ -14,7 +14,7 @@ export const Calculator = () => {
   };
 
   return (
-    <div className="mt-[140px] text-black">
+    <div id="calculator" className="mt-[140px] text-black">
       <h2 className="font-roadRadio text-5xl font-bold text-center">Стоимость доставки</h2>
       <div className="mt-16 flex justify-between">
         <div className="flex flex-col w-[620px]">

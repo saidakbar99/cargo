@@ -46,7 +46,7 @@ const benefitsContent = [
 
 export const Benefits = () => {
   return (
-    <div className="mt-[140px] text-black">
+    <div id='benefits' className="mt-[140px] text-black">
       <h2 className="text-center font-roadRadio font-bold text-5xl mb-[48px]">наши преимущества</h2>
       <div className="flex flex-wrap gap-x-6 gap-y-[29px]">
         {benefitsContent.map((item: BenefitsItemProps) => (

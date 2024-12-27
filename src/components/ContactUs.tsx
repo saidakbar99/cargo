@@ -6,7 +6,7 @@ import { Button } from "./ui/Button"
 
 export const ContactUs = () => {
   return (
-    <div className="mt-[108px]">
+    <div id="contactUs" className="mt-[108px]">
       <h2 className="font-roadRadio font-bold text-5xl text-center text-black">связаться с нами</h2>
       <div className="mt-12 flex border border-lightGray rounded-2xl">
         <div className="p-12 bg-black rounded-s-2xl min-w-[464px]">

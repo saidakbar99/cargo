@@ -4,7 +4,7 @@ import ProcessIcon3 from '../assets/box_icon.svg'
 
 export const Process = () => {
   return ( 
-    <div className='text-center mt-[140px] text-black'>
+    <div id='process' className='text-center mt-[140px] text-black'>
       <h2 className='text-5xl font-bold font-roadRadio'>Процесс работы</h2>
       <div className='flex mt-24'>
         <div className='flex flex-col items-center px-4 py-[22px]'>

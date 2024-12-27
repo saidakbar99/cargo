@@ -3,7 +3,7 @@ import AboutUsImage from '../assets/about_us_image.png'
 
 export const AboutUs = () => {
   return (
-    <div className="mt-64">
+    <div id="aboutUs" className="mt-64">
       <div className="flex justify-between">
         <h2 className="text-5xl font-bold font-roadRadio">О НАС</h2>
         <div className="w-[500px]">
